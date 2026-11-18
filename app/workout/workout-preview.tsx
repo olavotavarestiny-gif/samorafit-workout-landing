@@ -10,7 +10,7 @@ export default function WorkoutPreview() {
   <header className={styles.header}><Image src="/images/samorafit-workout-logo.webp" width={2858} height={647} sizes="230px" alt="SamoraFit Workout"/><span>WORKOUT ONLINE</span></header>
   <main>
    <section className={styles.hero} aria-labelledby="workout-heading">
-    <div className={styles.heroCopy}><span className={styles.eyebrow}>TREINA AO TEU RITMO</span><h1 id="workout-heading">O teu treino.<br/>Onde <em>quiseres.</em></h1><p>O Workout Online da SamoraFit acompanha-te. Escolhe o teu período e tem acesso total ao programa.</p><a href="#workout-plans" className={styles.heroCta}>Escolher o meu acesso<ArrowRight size={20}/></a><span className={styles.startingPrice}>A partir de <strong>4.999 Kz</strong> por 1 mês de acesso total.</span></div>
+    <div className={styles.heroCopy}><span className={styles.eyebrow}>TREINA AO TEU RITMO</span><h1 id="workout-heading">Treina quando e onde quiseres</h1><p>O workout on-line da Samorafit. Escolhe o teu plano e tenha acesso total ao programa.</p><a href="#workout-plans" className={styles.heroCta}>Escolher o meu acesso<ArrowRight size={20}/></a><span className={styles.startingPrice}>A partir de <strong>4.999 Kz</strong> por 1 mês de acesso total.</span></div>
     <figure className={styles.heroPhoto}><Image src="/images/workout-bruno.jpg" width={5760} height={3840} sizes="(max-width: 650px) calc(100vw - 44px), 46vw" alt="Bruno Samora com equipamento SamoraFit Workout" preload/><figcaption><Image src="/images/samorafit-workout-logo.webp" width={2858} height={647} sizes="270px" alt="SamoraFit Workout"/></figcaption></figure>
    </section>
    <section id="workout-plans" className={styles.plansSection} aria-labelledby="workout-plans-heading">
